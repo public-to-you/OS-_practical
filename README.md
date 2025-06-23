@@ -13,9 +13,9 @@
 - [Optimal (Page Replacement)](#optimal-page-replacement)
 - [LRU (Page Replacement)](#lru-page-replacement)
 - [Banker's Algorithm](#bankers-algorithm)
-- [First Fit (Memory Allocation)](#first-fit-memory-allocation)
-- [Best Fit (Memory Allocation)](#best-fit-memory-allocation)
--  [Worst Fit (Memory Allocation)](#worst-fit-memory-allocation)
+- [First Fit ](#first-fit-memory-allocation)
+- [Best Fit ](#best-fit-memory-allocation)
+-  [Worst Fit ](#worst-fit-memory-allocation)
 - [File Allocation Methods](#file-allocation-methods)
 - [Semaphores](#semaphores)
 
