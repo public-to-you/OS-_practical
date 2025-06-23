@@ -1,11 +1,11 @@
 - [FCFS](#FCFS)
-- [SJF](#sjf)
+- [SJF](#sjf)non
 - [Priority Scheduling](#priority-scheduling)
 - [Round Robin](#round-robin)
 
 
-#*CPU Scheduling**
-#FCFS(##FCFS)
+*CPU Scheduling**
+#FCFS
 
 #include<stdio.h>
 int main(){
@@ -66,8 +66,8 @@ int main(){
     return 0;
 }
 
-
-###**** SJF (Shortest Job First) – Non-Preemptive****(##sjf)
+##sjf
+SJF (Shortest Job First) – Non-Preemptive****
 
 #include <stdio.h>
 
@@ -140,7 +140,9 @@ int main() {
     return 0;
 }
 
-###*SJF Preemptive (SRTF)**
+
+#priority-scheduling
+*SJF Preemptive (SRTF)**
 #include <stdio.h>
 
 int main() {
