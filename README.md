@@ -68,7 +68,7 @@ int main(){
 
 
 ###**** SJF (Shortest Job First) – Non-Preemptive****
-
+#sjf
 
 #include <stdio.h>
 
