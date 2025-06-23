@@ -796,7 +796,8 @@ int main(){
     return 0;
 }
 
-## First Fit
+## First Fit (Memory Allocation)
+
 **First fit****
 #include <stdio.h>
 
@@ -840,7 +841,8 @@ int main() {
     return 0;
 }
 
-## Worst Fit
+## Worst Fit (Memory Allocation)
+
 **worst fit**
 
 #include <stdio.h>
@@ -891,7 +893,8 @@ int main() {
     return 0;
 }
 
-## Best Fit
+## Best Fit (Memory Allocation)
+
 **Best fit******
 
 #include <stdio.h>
