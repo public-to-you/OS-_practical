@@ -1,5 +1,11 @@
+- [FCFS](#FCFS)
+- [SJF](#sjf)
+- [Priority Scheduling](#priority-scheduling)
+- [Round Robin](#round-robin)
+
+
 #*CPU Scheduling**
-**FCFS**
+#FCFS
 
 #include<stdio.h>
 int main(){
