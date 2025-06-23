@@ -1,10 +1,8 @@
-- [FCFS](#FCFS)
-- [SJF](#sjf)non
-- [Priority Scheduling](#priority-scheduling)
-- [Round Robin](#round-robin)
+- [Page Replacement](#page-replacement)
 
-✨CPU scheduling
-♦️#FCFS
+
+✨**CPU scheduling**
+♦️**FCFS**
 
 #include<stdio.h>
 int main(){
@@ -65,7 +63,7 @@ int main(){
     return 0;
 }
 
-♦️**##sjf**
+♦️**sjf**
 **nonpreemptive**
 
 
@@ -141,8 +139,8 @@ int main() {
 }
 
 
-#priority-scheduling
-*SJF Preemptive (SRTF)**
+♦️**priority-scheduling**
+♦️***SJF Preemptive (SRTF)****
 #include <stdio.h>
 
 int main() {
@@ -228,7 +226,7 @@ int main() {
 }
 
 
-###******Preemptive Priority Scheduling******
+*♦️*****Preemptive Priority Scheduling******
 
 #include <stdio.h>
 
@@ -312,7 +310,7 @@ int main() {
 }
 
 
-###******Priority Scheduling (Non-Preemptive)******
+♦️♦️******Priority Scheduling (Non-Preemptive)******
 
 #include <stdio.h>
 
@@ -398,7 +396,7 @@ int main() {
 
 
 
-###****Round Robin******
+♦️****Round Robin******
 
 #include <stdio.h>
 
@@ -479,8 +477,9 @@ return 0;
 
 }
 
+## Page Replacement
 
-###****Page replacement****
+♦️****Page replacement****
 ****FIFO****
 
 #include <stdio.h>
