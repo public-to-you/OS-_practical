@@ -1,8 +1,29 @@
-- [Page Replacement](#page-replacement)
+
+
+- [FCFS](#fcfs)
+- [SJF (Non-Preemptive)](#sjf-non-preemptive)
+- [SJF (Preemptive)](#sjf-preemptive)
+- [Priority Scheduling (Non-Preemptive)](#priority-scheduling-non-preemptive)
+- - [Priority Scheduling (Non-Preemptive)](#priority-scheduling-preemptive)
+
+- [SJF Preemptive (SRTF)](#sjf-preemptive-srtf)
+- [Preemptive Priority Scheduling](#preemptive-priority-scheduling)
+- [Round Robin](#round-robin)
+- [FIFO (Page Replacement)](#fifo-page-replacement)
+- [Optimal (Page Replacement)](#optimal-page-replacement)
+- [LRU (Page Replacement)](#lru-page-replacement)
+- [Banker's Algorithm](#bankers-algorithm)
+- [First Fit (Memory Allocation)](#first-fit-memory-allocation)
+- [Best Fit (Memory Allocation)](#best-fit-memory-allocation)
+-  [Worst Fit (Memory Allocation)](#worst-fit-memory-allocation)
+- [File Allocation Methods](#file-allocation-methods)
+- [Semaphores](#semaphores)
+
 
 
 ✨**CPU scheduling**
 ♦️**FCFS**
+## FCFS
 
 #include<stdio.h>
 int main(){
@@ -65,7 +86,7 @@ int main(){
 
 ♦️**sjf**
 **nonpreemptive**
-
+## SJF (Non-Preemptive)
 
 #include <stdio.h>
 
@@ -139,8 +160,11 @@ int main() {
 }
 
 
-♦️**priority-scheduling**
+
 ♦️***SJF Preemptive (SRTF)****
+## SJF Preemptive (SRTF)
+## SJF (Preemptive)
+
 #include <stdio.h>
 
 int main() {
@@ -227,6 +251,8 @@ int main() {
 
 
 *♦️*****Preemptive Priority Scheduling******
+## Priority Scheduling (Preemptive)
+
 
 #include <stdio.h>
 
@@ -309,7 +335,7 @@ int main() {
     return 0;
 }
 
-
+## Non-Preemptive Priority Scheduling
 ♦️♦️******Priority Scheduling (Non-Preemptive)******
 
 #include <stdio.h>
@@ -395,7 +421,7 @@ int main() {
 
 
 
-
+## Round Robin
 ♦️****Round Robin******
 
 #include <stdio.h>
@@ -480,6 +506,7 @@ return 0;
 ## Page Replacement
 
 ♦️****Page replacement****
+## FIFO (Page Replacement)
 ****FIFO****
 
 #include <stdio.h>
@@ -549,8 +576,8 @@ int main() {
 }
 
 
-
-###**Optimal:******
+## Optimal (Page Replacement)
+**Optimal:******
 
 #include <stdio.h>
 
@@ -621,7 +648,7 @@ return 0;
 
 
 
-####**LRu******
+## LRU (Page Replacement)
 
 #include <stdio.h>
 
@@ -698,7 +725,8 @@ return 0;
 
 }
 
-###****Bankers****
+## Banker's Algorithm
+****Bankers****
 #include<stdio.h>
 int main(){
     
@@ -768,8 +796,8 @@ int main(){
     return 0;
 }
 
-
-###**First fit****
+## First Fit
+**First fit****
 #include <stdio.h>
 
 int main() {
@@ -812,8 +840,8 @@ int main() {
     return 0;
 }
 
-
-###**worst fit**
+## Worst Fit
+**worst fit**
 
 #include <stdio.h>
 
@@ -863,8 +891,8 @@ int main() {
     return 0;
 }
 
-
-###**Best fit******
+## Best Fit
+**Best fit******
 
 #include <stdio.h>
 
@@ -917,8 +945,8 @@ int main() {
 
 
 
-
-###**File allocation******
+## File Allocation Methods
+**File allocation******
 
 #include <stdio.h> #include <stdlib.h>
 
@@ -1064,8 +1092,8 @@ return 0;
 }
 
 
-
-###**Semaphore**
+## Semaphores
+**Semaphore**
 
 #include <stdio.h> #include <pthread.h> #include <semaphore.h> #include <unistd.h>
 
