@@ -4,7 +4,6 @@
 - [Round Robin](#round-robin)
 
 
-*CPU Scheduling**
 #FCFS
 
 #include<stdio.h>
@@ -67,7 +66,7 @@ int main(){
 }
 
 ##sjf
-SJF (Shortest Job First) – Non-Preemptive****
+
 
 #include <stdio.h>
 
