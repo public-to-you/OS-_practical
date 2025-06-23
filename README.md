@@ -1,4 +1,4 @@
-##**CPU Scheduling**
+#*CPU Scheduling**
 **FCFS**
 
 #include<stdio.h>
@@ -61,7 +61,7 @@ int main(){
 }
 
 
-**** SJF (Shortest Job First) – Non-Preemptive****
+###**** SJF (Shortest Job First) – Non-Preemptive****
 
 
 #include <stdio.h>
@@ -135,7 +135,7 @@ int main() {
     return 0;
 }
 
-**SJF Preemptive (SRTF)**
+###*SJF Preemptive (SRTF)**
 #include <stdio.h>
 
 int main() {
@@ -221,7 +221,7 @@ int main() {
 }
 
 
-******Preemptive Priority Scheduling******
+###******Preemptive Priority Scheduling******
 
 #include <stdio.h>
 
@@ -305,7 +305,7 @@ int main() {
 }
 
 
-******Priority Scheduling (Non-Preemptive)******
+###******Priority Scheduling (Non-Preemptive)******
 
 #include <stdio.h>
 
@@ -391,7 +391,7 @@ int main() {
 
 
 
-****Round Robin******
+###****Round Robin******
 
 #include <stdio.h>
 
@@ -473,7 +473,7 @@ return 0;
 }
 
 
-****Page replacement****
+###****Page replacement****
 ****FIFO****
 
 #include <stdio.h>
@@ -544,7 +544,7 @@ int main() {
 
 
 
-**Optimal:******
+###**Optimal:******
 
 #include <stdio.h>
 
@@ -615,7 +615,7 @@ return 0;
 
 
 
-**LRu******
+####**LRu******
 
 #include <stdio.h>
 
@@ -692,7 +692,7 @@ return 0;
 
 }
 
-****Bankers****
+###****Bankers****
 #include<stdio.h>
 int main(){
     
@@ -763,7 +763,7 @@ int main(){
 }
 
 
-**First fit****
+###**First fit****
 #include <stdio.h>
 
 int main() {
@@ -807,7 +807,7 @@ int main() {
 }
 
 
-**worst fit**
+###**worst fit**
 
 #include <stdio.h>
 
@@ -858,7 +858,7 @@ int main() {
 }
 
 
-**Best fit******
+###**Best fit******
 
 #include <stdio.h>
 
@@ -912,7 +912,7 @@ int main() {
 
 
 
-**File allocation******
+###**File allocation******
 
 #include <stdio.h> #include <stdlib.h>
 
@@ -1059,7 +1059,7 @@ return 0;
 
 
 
-**Semaphore**
+###**Semaphore**
 
 #include <stdio.h> #include <pthread.h> #include <semaphore.h> #include <unistd.h>
 
