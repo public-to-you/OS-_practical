@@ -3,8 +3,8 @@
 - [Priority Scheduling](#priority-scheduling)
 - [Round Robin](#round-robin)
 
-
-#FCFS
+✨CPU scheduling
+♦️#FCFS
 
 #include<stdio.h>
 int main(){
@@ -65,7 +65,8 @@ int main(){
     return 0;
 }
 
-##sjf
+♦️**##sjf**
+**nonpreemptive**
 
 
 #include <stdio.h>
