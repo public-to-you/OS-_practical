@@ -5,7 +5,7 @@
 
 
 #*CPU Scheduling**
-#FCFS
+#FCFS(#fcfs)
 
 #include<stdio.h>
 int main(){
@@ -67,8 +67,7 @@ int main(){
 }
 
 
-###**** SJF (Shortest Job First) – Non-Preemptive****
-#sjf
+###**** SJF (Shortest Job First) – Non-Preemptive****(#sjf)
 
 #include <stdio.h>
 
